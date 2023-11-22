@@ -6,7 +6,7 @@ void setup() {
   DigiKeyboard.delay(500);
 
   DigiKeyboard.println("https://github.com/BoKersten/"); //Change this to the website you want to spam
-  
+  //test
 }
 void loop() {
   DigiKeyboard.sendKeyStroke(0);
@@ -15,6 +15,6 @@ void loop() {
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
- 
+  
   
 }
